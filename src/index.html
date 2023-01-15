@@ -57,7 +57,7 @@ top: 0; left: 0; bottom: 0; right: 0;
 			debug: false
 		 });
 
-		var ws = new WebSocket("ws://b7e1-152-3-43-60.ngrok.io");
+		var ws = new WebSocket("ws://$ip:$port/ws/");
 		ws.binaryType = 'arraybuffer';
 		ws.addEventListener('message',function(event){
 			if (!document.hidden){
