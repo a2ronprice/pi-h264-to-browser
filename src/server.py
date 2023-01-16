@@ -11,10 +11,10 @@ camera.video_denoise = False
 
 recordingOptions = {
     'format' : 'h264', 
-    'quality' : 10, 
+    'quality' : 20, 
     'profile' : 'high', 
     'level' : '4.2', 
-    'intra_period' : 10, 
+    'intra_period' : 15, 
     'intra_refresh' : 'both', 
     'inline_headers' : True, 
     'sps_timing' : True
