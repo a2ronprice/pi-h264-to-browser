@@ -6,7 +6,7 @@ import io, os, socket
 # start configuration
 serverPort = 8000
 
-camera = PiCamera(sensor_mode=2, resolution='1920x1080', framerate=30)
+camera = PiCamera(sensor_mode=2, resolution='1080x720', framerate=30)
 camera.video_denoise = False
 
 recordingOptions = {
